@@ -1,0 +1,8 @@
+#MAIN.PY
+from sensor import Temperature,Lightsensor
+
+temp = Temperature("Temp1")
+light = Lightsensor("Light1")
+
+print(f"Temp: {temp.read()}")
+print(f"Light: {light.read()}")
