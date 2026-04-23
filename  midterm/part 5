@@ -1,0 +1,18 @@
+comfortable = 0
+normal = 0
+warning = 0
+
+for s in sensors:
+    c = s.comfort_level()
+
+    if c == "Comfortable":
+        comfortable += 1
+    elif c == "Normal":
+        normal += 1
+    elif c == "Warning":
+        warning += 1
+
+print("Summary:")
+print(f"Comfortable: {comfortable}")
+print(f"Normal: {normal}")
+print(f"Warning: {warning}")
