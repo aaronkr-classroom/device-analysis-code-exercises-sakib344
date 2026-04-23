@@ -1,4 +1,3 @@
-#room_sensor.py
 from room_sensor import RoomSensor
 
 # create objects (like variables a, b, c)
